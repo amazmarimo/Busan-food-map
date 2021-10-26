@@ -23,7 +23,7 @@
             background-repeat: no-repeat;
             background-size: 45%;
             background-position: center;
-            height: 100vh;
+            height: 100%;
         }
 
         .image {
@@ -33,14 +33,8 @@
 
         .image .text {
             position: absolute;
-            top: 53px;
+            top: 5px;
             left: 75px;
-        }
-
-        .gallerylist {
-            width: auto;
-            width: 100%;
-            margin: 0 auto;
         }
 
         ul {
@@ -135,6 +129,22 @@
             left: 0;
             text-align: center;
         }
+
+
+        .gallerylist {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 auto;
+        }
+
+        .gallerylist>li {
+            flex-basis: 256px;
+            flex-shrink: 1;
+        }
+
+        img {
+            width: 10%;
+        }
     </style>
 </head>
 
@@ -181,7 +191,7 @@
                         <div class="screen">
                             <div class="top">전체보기</div>
                             <div class="bottom">부산 음식점 전체보기</div>
-                            <img src="myApp/all2.jpg" width="256px" alt="" style="border-radius: 30%;">
+                            <img src="myApp/all2.jpg" alt="" style="border-radius: 30%;">
                         </div>
 
                     </a>
@@ -191,7 +201,7 @@
                         <div class="screen">
                             <div class="top">한식</div>
                             <div class="bottom">한식 좋아하면 클릭</div>
-                            <img src="myApp/kf.jpg" width="256px" alt="" style="border-radius: 30%;">
+                            <img src="myApp/kf.jpg" alt="" style="border-radius: 30%;">
                         </div>
 
                     </a>
@@ -201,7 +211,7 @@
                         <div class="screen">
                             <div class="top">중식</div>
                             <div class="bottom">중식 좋아하면 클릭</div>
-                            <img src="myApp/cf.jpg" width="256px" alt="" style="border-radius: 30%;">
+                            <img src="myApp/cf.jpg" alt="" style="border-radius: 30%;">
                         </div>
 
                     </a>
@@ -211,7 +221,7 @@
                         <div class="screen">
                             <div class="top">일식</div>
                             <div class="bottom">일식 좋아하면 클릭</div>
-                            <img src="myApp/jf.jpg" width="256px" alt="" style="border-radius: 30%;">
+                            <img src="myApp/jf.jpg" alt="" style="border-radius: 30%;">
                         </div>
 
                     </a>
@@ -221,7 +231,7 @@
                         <div class="screen">
                             <div class="top">양식</div>
                             <div class="bottom">양식 좋아하면 클릭</div>
-                            <img src="myApp/wf.jpg" width="256px" alt="" style="border-radius: 30%;">
+                            <img src="myApp/wf.jpg" alt="" style="border-radius: 30%;">
                         </div>
 
                     </a>
@@ -231,7 +241,7 @@
                         <div class="screen">
                             <div class="top">패스트푸드_치킨</div>
                             <div class="bottom">패스트푸드 or 치킨 좋아하면 클릭</div>
-                            <img src="myApp/ff.jpg" width="256px" alt="" style="border-radius: 30%;">
+                            <img src="myApp/ff.jpg" alt="" style="border-radius: 30%;">
                         </div>
 
                     </a>
@@ -241,7 +251,7 @@
                         <div class="screen">
                             <div class="top">기타</div>
                             <div class="bottom">다른 음식점 찾기</div>
-                            <img src="myApp/other2.jpg" width="256px" alt="" style="border-radius: 30%;">
+                            <img src="myApp/other2.jpg" alt="" style="border-radius: 30%;">
                         </div>
 
                     </a>
