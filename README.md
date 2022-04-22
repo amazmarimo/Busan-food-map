@@ -1,7 +1,7 @@
 # mini-project
 
 빅데이터를 이용한 맛집탐색지도
-https://amazmarimo.github.io/mini-project/
+https://amazmarimo.github.io/Busan-food-map/
 
 식당명 데이터-> 공공데이터 포털(행정안전부_일반음식점)
 
